@@ -3,7 +3,7 @@ https://youtu.be/SQ4A7Q6_md8
 <br><br>
 
 #### Getting the files
-Download zip file<br> 
+Download zip file<br>
 or <br>
 git clone command (need git to be installed) and remove git folder afterwards
 ```
@@ -26,7 +26,7 @@ python3 -m venv venv
 (Powershell:) .\venv\Scripts\Activate.ps1
 ```
 ```
-(or Command Prompt:) venv\Scripts\activate 
+(or Command Prompt:) venv\Scripts\activate
 (or Git Bash:) source venv/Scripts/activate
 ```
 
@@ -63,4 +63,6 @@ print(get_random_secret_key())
 exit()
 ```
 
-
+###  creds
+- admin/djangortc
+- every other user/djangortc

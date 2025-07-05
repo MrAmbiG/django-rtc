@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-rtc"
+version = "0.1.0"
+description = ""
+authors = ["mrambig <11379625+MrAmbiG@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.2.4"
+pillow = "^11.3.0"
+django-cleanup = "^9.0.0"
+django-allauth = "^65.9.0"
+django-htmx = "^1.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
